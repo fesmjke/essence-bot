@@ -1,4 +1,4 @@
-import Config from "../src/utils/config";
+import Config from "../src/settings/config";
 
 describe('Config',() => {
     const config = new Config();
