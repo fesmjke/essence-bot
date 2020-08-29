@@ -1,5 +1,3 @@
-import  Config  from "./settings/config";
-// const bot = new Telegraf(config.);
+import bot from "./bot";
 
-const config = new Config()
-
+bot.launch()
