@@ -1,0 +1,1 @@
+INSERT INTO USER(user_id,user_name) VALUES(?,?)
