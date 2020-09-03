@@ -2,8 +2,8 @@ import Telegraf from "telegraf";
 import Config from "../settings/config"
 import CommandsComposer from "../handlers/commands";
 import MiddlewareComposer from "../handlers/middleware";
-import isBot from "../utils/is-bot";
-import respTime from "../utils/response-time";
+import isBot from "../utils/middleware/is-bot";
+import respTime from "../utils/middleware/response-time";
 
 const config = Config.getInstance()
 

@@ -1,6 +1,5 @@
 CREATE TABLE IF NOT EXISTS USER (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    user_id INT NOT NULL,
+    telegram_user_id INT PRIMARY KEY,
     user_name VARCHAR(30) NOT NULL,
-    UNIQUE(user_name,user_id)
+    UNIQUE(user_name)
 )

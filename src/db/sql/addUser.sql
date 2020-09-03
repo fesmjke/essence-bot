@@ -1,1 +1,1 @@
-INSERT INTO USER(user_id,user_name) VALUES(?,?)
+INSERT INTO USER(telegram_user_id,user_name) VALUES(?,?)

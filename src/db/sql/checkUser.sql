@@ -1,1 +1,1 @@
-SELECT user_name FROM user WHERE `user_id`=?;
+SELECT user_name FROM user WHERE `telegram_user_id`=?
